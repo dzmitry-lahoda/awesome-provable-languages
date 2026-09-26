@@ -2,6 +2,7 @@
 
 [Agda](https://github.com/agda/agda) - a dependently typed programming language / interactive theorem prover. 
 [Lean4](https://lean-lang.org/) -  - programming language and theorem prover
+[Rocq](https://rocq-prover.org/) - interactive theorem prover and dependently-typed programming language
 
 | Language                                     | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types | type classes | effects |
 |----------------------------------------------|------|-----------------|--------------|--------------|-----------------|------------------|--------------|---------|
@@ -10,15 +11,15 @@
 | [Dafny](https://github.com/dafny-lang/dafny) |      |                 |              |              | +               |                  |              |         |
 | !! [quint](https://quint-lang.org/)          |      |                 |              |              |                 |                  |              |         |
 | Idris                                        |      |                 |              |              |                 |                  |              |         |
-| Coq                                          |      |                 |              |              | -               |                  |              |         |
+| Rocq                                          |      |                 |              |              | -               |                  |              |         |
 | [Flix](https://flix.dev/)                    | -    | -               |              |              | +               |                  | +            | +       |
-| Fstar                                        |      |                 |              |              | +               | +                |              |         |
+| F*                                        |      |                 |              |              | +               | +                |              |         |
 | Kind                                         |      |                 |              |              |                 |                  |              |         |
 | !!Alloy                                      |      |                 |              |              |                 |                  |              |         |
 | !!TlaPlus                                    |      |                 |              |              |                 |                  |              |         |
 | ??[Curry](https://curry-lang.org/)           |      |                 |              |              | +               |                  |              |         |
 | ??[Mercury](https://mercurylang.org/)        |      |                 |              |              |                 |                  |              |         |
-| [Isabelle](https://isabelle.in.tum.de/)      |      |                 |              |              |                 |                  |              |         |
+| [Isabelle](https://isabelle.in.tum.de/)      |      |                 |              |              |                 |                  |              |         | ?? Quint
 
 
 ### Internals
@@ -68,6 +69,7 @@ bootstrapped
 
 Languages like C/C++/Haskell/Ada/[Rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
 has a lot of tooling to prove things about them, but that tooling is not part of langauge.
+Haskell and Rust may get into if more unstable/extensiona/nightly/experimental features got into stable releases over time
 
 ### Prolog and its supersets
 
@@ -75,7 +77,8 @@ has a lot of tooling to prove things about them, but that tooling is not part of
 
 ### Model checkers and specification languages 
 
-???
+??? Quint
+??? TLA+
 
 ### Symbolic
 
