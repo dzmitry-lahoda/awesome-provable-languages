@@ -1,9 +1,11 @@
 ## Can do proofs:
 
+[Agda](https://github.com/agda/agda) - a dependently typed programming language / interactive theorem prover. 
+
 
 | Language                                     | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types | type classes | effects |
 |----------------------------------------------|------|-----------------|--------------|--------------|-----------------|------------------|--------------|---------|
-| Agda                                         |      |                 |              |              |                 |                  |              |         |
+| Agda                                         |      |       +          |              |              |                 |                  |              |         |
 | Lean                                         | -    | +               |              | +            | +               |                  |              |         |
 | [Dafny](https://github.com/dafny-lang/dafny) |      |                 |              |              | +               |                  |              |         |
 | !! [quint](https://quint-lang.org/)          |      |                 |              |              |                 |                  |              |         |
