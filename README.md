@@ -1,12 +1,12 @@
 ## Can do proofs:
 
 [Agda](https://github.com/agda/agda) - a dependently typed programming language / interactive theorem prover. 
-
+[Lean4](https://lean-lang.org/) -  - programming language and theorem prover
 
 | Language                                     | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types | type classes | effects |
 |----------------------------------------------|------|-----------------|--------------|--------------|-----------------|------------------|--------------|---------|
 | Agda                                         |      |       +          |              |              |                 |                  |              |         |
-| Lean                                         | -    | +               |              | +            | +               |                  |              |         |
+| Lean4                                         | -    | +               |              | +            | +               |                  |              |         |
 | [Dafny](https://github.com/dafny-lang/dafny) |      |                 |              |              | +               |                  |              |         |
 | !! [quint](https://quint-lang.org/)          |      |                 |              |              |                 |                  |              |         |
 | Idris                                        |      |                 |              |              |                 |                  |              |         |
@@ -21,6 +21,9 @@
 | [Isabelle](https://isabelle.in.tum.de/)      |      |                 |              |              |                 |                  |              |         |
 
 
+### Internals
+
+bootstrapped
 
 ### Runtime and compiled targets
 
